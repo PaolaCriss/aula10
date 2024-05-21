@@ -31,7 +31,7 @@ class DatabaseHelper {
         // Callback executado quando o banco de dados é criado
         return db.execute(
           // Executa uma operação SQL
-          'CREATE TABLE tarefa(id INTEGER PRIMARY KEY AUTOINCREMENT, titulo TEXT, description TEXT)', // Cria a tabela 'tarefas'
+          'CREATE TABLE tarefa(id INTEGER PRIMARY KEY AUTOINCREMENT, titulo TEXT, descricao TEXT)', // Cria a tabela 'tarefas'
         );
       },
       version: 1, // Versão do banco de dados
